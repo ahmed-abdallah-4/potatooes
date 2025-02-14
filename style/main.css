@@ -1,0 +1,313 @@
+*{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.liter-regular {
+    font-family: "Liter", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header.flex {
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+    display: flex;
+    background-color: rgb(9, 9, 9);
+    color:rgb(255, 216, 86);
+    margin-left: 10rem;
+    margin-right:10rem;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+
+.logo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(9, 9, 9);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.p-icon , .logo img{
+    background-color: rgb(9, 9, 9);
+}
+.link ,
+.logo {
+    background-color: rgb(9, 9, 9);
+    font-size: 15px;
+    
+    
+}
+.link i {
+    background-color: #ff0000;
+}
+
+.sign-in {
+    margin-inline: 1rem;
+    border-radius: 55px;
+    font-weight: 500;
+    background-color: #ff0000;
+  }
+
+.sign-in,
+.register {
+    border: 1px solid var(--bodyFont);
+    padding: 0.44rem 1rem;
+    color:rgb(255, 255, 255);
+    border-radius: 55px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: rgb(255, 0, 0);
+    box-shadow:0px 0px 2px 2px#4c4022;
+
+
+  }
+
+  .sign-in:hover,
+  .register:hover,
+  .container button:hover
+   {
+    background-color:rgb(255, 255, 255);
+    color:#ff0000;
+    box-shadow:0px 0px 3px 3px#997e39;
+  }
+
+.sign-in:hover .fa-solid,
+  .register:hover .fa-solid {
+    background-color:rgb(255, 255, 255);
+    color:#ff0000;
+  }
+
+.home .content {
+    background-color: rgb(9, 9, 9);
+    display:flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right:10rem;
+    height: 85vh;
+    
+}
+
+.container {
+    text-align:left;
+    background-color:rgb(9, 9, 9);
+    font-family: "Liter", serif;
+    
+}
+
+.container p {
+    color:aliceblue;
+    background-color:rgb(9, 9, 9);
+    font-size: 25px;
+}
+.container .two {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Liter", serif;
+    margin: auto;
+    
+}
+.container .one-1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Liter", serif;
+    margin:auto ;
+    
+}
+.container .two .two-1 {
+    background-color:rgb(0, 0, 0);
+    font-family:"Liter", serif;
+    font-size:60px ;
+    color:#ff0000;
+}
+
+.content .image {
+    background-color:rgb(0, 0, 0);
+    border: 2px;
+}
+ 
+.image img {
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px 5px#0b0505 ;
+}
+.container .botton-1 {
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: #ff0101;
+    box-shadow:0px 0px 4px 4px#ff9900;
+    border-radius: 2%;
+    font-weight: 500;
+        
+
+}
+.container button {
+    background-color: #0b0505;
+}
+
+
+.MENU {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+    display: flex;
+    background-color: rgba(167, 167, 167, 0.712);
+    color:rgb(0, 0, 0);
+    margin-left: 10rem;
+    margin-right:10rem;
+    align-items: center;
+    font-family: "Liter", serif;
+    
+}
+.card {
+    background-color: rgba(167, 167, 167, 0.712);
+    color: rgba(0, 0, 0, 0.712);
+    font-family: "Liter", serif;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 6% 6% 3% 3%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.MENU .card a img {
+    border-radius: 6% 6% 0% 0%;
+    color: rgba(167, 167, 167, 0.712);
+    box-shadow: 0px 0px 0px 2px;
+}
+
+.contents {
+    box-shadow: 1px 1px 0px 0px; 
+    border-radius: 0% 0% 3% 3%;
+}   
+
+.price {
+    color: #ff0000;
+}
+
+
+
+.add-to-cart {
+    background-color:#01a2ff;
+    color:aliceblue;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 2%;
+    text-decoration: none;
+}
+
+.add-to-cart:hover,
+.add-to-cart:hover .fa-solid {
+    background-color: aliceblue;
+    color: #01a2ff;
+    
+}
+
+
+.add-to-cart i {
+    background-color:#01a2ff;
+    color:aliceblue;
+    text-decoration: none;
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1030px) {
+        header.flex {
+            padding: auto;
+            margin: 0;
+        }
+        .logo{
+            overflow: hidden;
+            display: none;
+             
+        }
+        .link {
+            margin: auto;
+            align-items: center;
+            padding-top: 20px;
+            
+            
+            
+        }
+        .home .content {
+            margin: auto;
+            height:85vh ;
+            flex-direction: column-reverse;
+            padding-bottom: 100px;
+            padding: auto;
+            
+        }
+        .image {
+            padding-top: 0px;
+            height:auto ;
+            width: auto;
+        }
+        .container {
+            
+        }
+        .MENU{
+            margin: auto;
+            padding: auto;
+            flex-direction: column-reverse;
+        }
+        }
+
+@media  (min-width:0) and (max-width:767px) {
+    body{margin: 0;
+        padding: 0;
+
+    }
+    header.flex {
+        display: flex;
+        margin:20px 0px 0px 0px;
+    }
+    .logo{
+        overflow: hidden;
+        display: none;
+         
+    }
+    .link {
+        margin: auto;
+        position: absolute;
+        background-color: #01a2ff00;
+        font-size: 10px;
+        align-items: center;
+        
+        
+    }
+    .home .content {
+        margin: auto;
+        height:85vh ;
+        flex-direction: column-reverse;
+        padding-bottom: 100px;
+        
+        
+        
+    }
+    .image {
+        padding-top: px;
+        height:auto ;
+        width: auto;
+        
+        
+    }
+    .container {
+        
+    }
+    .MENU{
+        margin: auto;
+        padding: auto;
+        flex-direction: column-reverse;
+    }
+}
